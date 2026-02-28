@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy – Land Area Calculator</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #2D2D2D;
+            background: #FFF8F0;
+            line-height: 1.7;
+            padding: 24px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        h1 {
+            font-size: 28px;
+            color: #2E7D32;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #333;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p, li {
+            font-size: 15px;
+            color: #444;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        a { color: #2E7D32; }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #E0D5C8;
+            font-size: 13px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Land Area Calculator &middot; Last updated: February 28, 2026</p>
+
+        <p>Land Area Calculator ("the App", "we", "our") is a GPS-based land area measurement tool designed for Indian land units. Your privacy matters to us. This policy explains what data we collect, how we use it, and your choices.</p>
+
+        <h2>1. Data We Collect</h2>
+
+        <p><strong>Location data:</strong></p>
+        <ul>
+            <li><strong>GPS coordinates</strong> – The App uses your device's GPS to measure land boundaries. In GPS Walk mode, your location is tracked continuously (including in the background) to record the boundary path. In Map Pin mode, GPS is used only to center the map on your current location.</li>
+            <li><strong>Reverse geocoding</strong> – On first launch, your approximate location is sent to Google's geocoding service to auto-detect your Indian state for regional unit defaults. Only the state name is stored; raw coordinates are not retained for this purpose.</li>
+            <li><strong>Background location</strong> – When actively recording a GPS Walk measurement, the App accesses your location in the background so tracking continues if you switch apps or lock your screen. Background location is only used during active measurement sessions.</li>
+        </ul>
+
+        <p><strong>Data stored on your device (never sent to us):</strong></p>
+        <ul>
+            <li>Saved plot measurements (name, GPS boundary coordinates, area, unit, state)</li>
+            <li>User preferences (preferred state, language, display unit, user type)</li>
+            <li>Custom unit definitions you create</li>
+        </ul>
+        <p>This data is stored locally in an SQLite database on your device. We do not have access to it and it is never transmitted to our servers.</p>
+
+        <p><strong>Camera and photo library:</strong></p>
+        <ul>
+            <li>The Photo Measure feature allows you to take or select a photo to measure areas on an image. Photos are processed entirely on your device and are not uploaded to any server.</li>
+        </ul>
+
+        <p><strong>Anonymous analytics (via Firebase Analytics):</strong></p>
+        <ul>
+            <li>App usage events (e.g., measurement started, plot saved, unit converted, settings changed)</li>
+            <li>Measurement metadata (area in square meters, point count, measurement mode) – not raw GPS coordinates</li>
+            <li>User properties (user type, preferred state, language, display unit)</li>
+            <li>Search queries entered in the land records (Bhulekh) feature</li>
+            <li>Device type, operating system version, and app version</li>
+        </ul>
+        <p>This data helps us understand how the App is used and improve it. It does not include your name, email, or other personal identifiers.</p>
+
+        <h2>2. Data We Do NOT Collect</h2>
+        <ul>
+            <li>Personal information (name, email, phone number, address)</li>
+            <li>Contacts from your device</li>
+            <li>Advertising identifiers (the App does not display ads)</li>
+            <li>Account or login information (no account is required)</li>
+            <li>Financial or payment information</li>
+        </ul>
+
+        <h2>3. How We Use Your Data</h2>
+        <ul>
+            <li><strong>Location data</strong> – Used solely to measure land area and auto-detect your state for regional unit defaults. We do not track your location for any other purpose.</li>
+            <li><strong>Analytics data</strong> – Used to understand feature usage, fix bugs, and improve the App.</li>
+            <li><strong>Camera/photos</strong> – Used only for the Photo Measure feature, processed locally on your device.</li>
+        </ul>
+
+        <h2>4. Third-Party Services</h2>
+        <p>We use the following third-party services:</p>
+        <ul>
+            <li><strong>Firebase Analytics</strong> – anonymous usage analytics. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+            <li><strong>Google Maps Platform</strong> – satellite map rendering and map tiles. <a href="https://cloud.google.com/maps-platform/terms" target="_blank">Google Maps Terms</a></li>
+            <li><strong>Google Geocoding API</strong> – reverse geocoding for state auto-detection. <a href="https://cloud.google.com/maps-platform/terms" target="_blank">Google Maps Platform Terms</a></li>
+            <li><strong>Google Fonts</strong> – font delivery. <a href="https://developers.google.com/fonts/faq/privacy" target="_blank">Google Fonts Privacy</a></li>
+        </ul>
+        <p>These services are provided by Google and are governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+        <p>The Bhulekh (land records) feature opens government land record portals in an in-app browser. Your interactions with these portals are governed by the respective state government's privacy policies.</p>
+
+        <h2>5. Data Sharing</h2>
+        <p>When you choose to share or export a measurement:</p>
+        <ul>
+            <li><strong>Share card</strong> – Sends measurement details (area, unit, dimensions) via the app you select (e.g., WhatsApp). No raw GPS coordinates are included in share cards.</li>
+            <li><strong>PDF export</strong> – Generated locally on your device. PDF reports may include GPS coordinates of boundary points. You control who receives the exported PDF.</li>
+        </ul>
+        <p>We do not sell, rent, or share your data with third parties for marketing purposes.</p>
+
+        <h2>6. Permissions</h2>
+        <ul>
+            <li><strong>Location (precise, background)</strong> – Required for GPS-based land measurement. Background location is needed for continuous tracking in GPS Walk mode.</li>
+            <li><strong>Camera</strong> – Required for Photo Measure feature to capture photos for image-based measurement.</li>
+            <li><strong>Photo library</strong> – Required for Photo Measure feature to select existing photos.</li>
+            <li><strong>Notifications</strong> – Used to show a persistent notification during active GPS Walk sessions, so the tracking service stays active.</li>
+            <li><strong>Internet</strong> – Required for map tiles, analytics, geocoding, and font loading.</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>The App is not directed at children under 13. We do not knowingly collect personal information from children. The App does not require any personal information to function.</p>
+
+        <h2>8. Data Retention</h2>
+        <ul>
+            <li><strong>Local data</strong> – Saved plots, settings, and custom units are stored on your device until you delete them or uninstall the App.</li>
+            <li><strong>Analytics data</strong> – Retained by Firebase according to Google's standard retention policies (typically 14 months).</li>
+        </ul>
+
+        <h2>9. Your Choices</h2>
+        <ul>
+            <li><strong>Location access:</strong> You can revoke location permissions at any time in your device settings. GPS Walk and Map Pin features will not function without location access.</li>
+            <li><strong>Background location:</strong> You can disable background location access separately. GPS Walk will still work but only while the App is in the foreground.</li>
+            <li><strong>Analytics:</strong> You can limit analytics collection through your device's privacy settings (e.g., "Limit Ad Tracking" on iOS or "Opt out of Ads Personalization" on Android).</li>
+            <li><strong>Delete data:</strong> You can delete individual saved plots from within the App or uninstall the App to remove all locally stored data.</li>
+        </ul>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>11. Contact Us</h2>
+        <p>If you have questions about this privacy policy, you can reach us at:</p>
+        <p><a href="mailto:bharathmg.dev@gmail.com">bharathmg.dev@gmail.com</a></p>
+
+        <div class="footer">
+            &copy; 2026 Land Area Calculator. Made with &#9829; in India.
+        </div>
+    </div>
+</body>
+</html>
